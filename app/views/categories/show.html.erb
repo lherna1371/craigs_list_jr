@@ -1,0 +1,5 @@
+<%= link_to "Create Post", new_category_post_path(@category) %>
+
+<% @category.posts.each do |post| %>
+  <li><%= post.title %></li><%= link_to "Show", category_post_path(@category, post) %>
+<%end%>
