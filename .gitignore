@@ -33,3 +33,4 @@ pickle-email-*.html
 .project
 config/initializers/secret_token.rb
 pickle-email-*.html
+pickle-email-*.html
