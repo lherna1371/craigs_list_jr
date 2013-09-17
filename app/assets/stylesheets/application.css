@@ -11,3 +11,88 @@
  *= require_self
  *= require_tree .
  */
+.title {
+  color: red;
+  padding-left: 50px;
+}
+
+
+.list {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  border: 2px solid black;
+  background-color: #ffd1d1;
+}
+
+
+li {
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+
+.background {
+  background: black
+}
+
+h1 {
+  color: white;
+}
+
+.category {
+  font-size: 25px;
+}
+
+.button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bdbdbd), color-stop(1, #dfdfdf) );
+  background:-moz-linear-gradient( center top, #bdbdbd 5%, #dfdfdf 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bdbdbd', endColorstr='#dfdfdf');
+  background-color:#bdbdbd;
+  -webkit-border-top-left-radius:6px;
+  -moz-border-radius-topleft:6px;
+  border-top-left-radius:6px;
+  -webkit-border-top-right-radius:6px;
+  -moz-border-radius-topright:6px;
+  border-top-right-radius:6px;
+  -webkit-border-bottom-right-radius:6px;
+  -moz-border-radius-bottomright:6px;
+  border-bottom-right-radius:6px;
+  -webkit-border-bottom-left-radius:6px;
+  -moz-border-radius-bottomleft:6px;
+  border-bottom-left-radius:6px;
+  text-indent:0;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  color:#777777;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:50px;
+  line-height:50px;
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #ffffff;
+  margin-bottom: 30px;
+}
+.button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #bdbdbd) );
+  background:-moz-linear-gradient( center top, #dfdfdf 5%, #bdbdbd 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#bdbdbd');
+  background-color:#dfdfdf;
+  margin-bottom: 30px;
+
+}
+
+.button:active {
+  position:relative;
+  top:1px;
+  margin-bottom: 30px;
+
+}
+
+

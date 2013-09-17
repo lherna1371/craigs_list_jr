@@ -1,6 +1,11 @@
-<a>title: </a><%= @post.title %><br>
-<a>description: </a><%= @post.description%><br>
-<a>email: </a><%= @post.email%><br>
+<h2>Post Description</h2>
+<div class="list">
+  <a class="title"><a class ="category">Title: </a><%= @post.title %></a><br><br>
+  <a class="title"><a class ="category">Description: </a><%= @post.description%></a><br><br>
+  <a class="title"><a class ="category">Email: </a><%= @post.email%></a><br><br>
+</div>
+
+
 <%= link_to "Edit", edit_category_post_path(@category, @post) %>
 <%= link_to "Delete", category_post_path(@category, @post), method: :delete %>
 <%= link_to "Back", categories_path%>
