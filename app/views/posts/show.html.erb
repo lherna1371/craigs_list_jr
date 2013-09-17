@@ -2,4 +2,6 @@
 <a>description: </a><%= @post.description%><br>
 <a>email: </a><%= @post.email%><br>
 <%= link_to "Edit", edit_category_post_path(@category, @post) %>
+<%= link_to "Delete", category_post_path(@category, @post), method: :delete %>
+<%= link_to "Back", categories_path%>
 
